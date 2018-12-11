@@ -1,0 +1,7 @@
+== Fedora Container Naming
+
+A Fedora Container Layered Image name should be the same as the the name of main service that it intends to provide end users. Therefore, naming must follow the [[Packaging:NamingGuidelines|Fedora Naming Guidelines]].
+
+Container naming as it will exist in https://admin.fedoraproject.org/pkgdb/packages/*/?branches=&status=&owner=&namespace=container[Fedora Package DB] (and [Distgit http://pkgs.fedoraproject.org/cgit/container]) should be relatively standard. None of the Fedora releases/DistGit-branch naming should be taken into consideration by the main container name, just as it is for RPM Package Naming.
+
+Fedora content is now "namespaced" in both https://admin.fedoraproject.org/pkgdb/packages/[Fedora Package DB] and http://pkgs.fedoraproject.org/cgit/rpms/[DigtGit], with the default namespace being 'rpms' for backwards compatibility. This allows for Container Layered Images to share the same base component name as their RPM counterpart (where applicable).

@@ -1,3 +1,0 @@
-= Containers Architecture
-
-* xref:introduction.adoc[Introduction]

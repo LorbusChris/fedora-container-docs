@@ -1,10 +1,9 @@
 = Introduction
 
-General Container Introduction
+Here you will find Documentation and Guidelines regarding creation, usage and maintainance of Containers in Fedora.
 
-== Tools
+Fedora is targeting to perform with any https://www.opencontainers.org/[OCI-compliant] container runtime implementation.
 
-* Buildah
-* Kubernetes on Fedora
-* Podman
-* Skopeo
+== Goals of this Document
+
+== Target Audience
